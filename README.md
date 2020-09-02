@@ -221,6 +221,4 @@ export default () => (
 
 ## REFERENCE
 
-```
-[Link to learn more : ]("https://github.com/leecade/react-native-swiper")
-```
+- Link to learn more : ("https://github.com/leecade/react-native-swiper")
