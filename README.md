@@ -107,3 +107,21 @@ export default () => (
 ### Example Display >> Basic Swiper-Component
 
 ![](http://i.imgur.com/zrsazAG.gif=300x)
+
+##  Other Swiper-Component Examples
+
+### [examples/components/Swiper](https://github.com/leecade/react-native-swiper/blob/master/examples/components/Swiper)
+
+![](http://i.imgur.com/hP3f3oO.gif=300x)
+
+### [examples/components/SwiperNumber](https://github.com/leecade/react-native-swiper/blob/master/examples/components/SwiperNumber)
+
+![](http://i.imgur.com/0rqESVb.gif=300x)
+
+### [examples/components/Phone](https://github.com/leecade/react-native-swiper/blob/master/examples/components/Phone)
+
+![](http://i.imgur.com/c1BhjZm.gif=300x)
+
+### [examples/components/LoadMinimal](https://github.com/leecade/react-native-swiper/blob/master/examples/components/LoadMinimal)
+
+![](http://i.imgur.com/LAOHbJA.gif=300x)
