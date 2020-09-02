@@ -216,3 +216,12 @@ export default () => (
 | onTouchStart        | `e` / `state` / `context` | `function` | Same, but bubble phase                                      |
 | onTouchEnd          | `e` / `state` / `context` | `function` | You could hold the touch start for a long time              |
 | onResponderRelease  | `e` / `state` / `context` | `function` | When lifting up - you could pause forever before \* lifting |
+
+##
+
+## REFERENCE
+
+```
+Link to learn more : https://github.com/leecade/react-native-swiper
+
+```
