@@ -270,7 +270,7 @@ export default class extends Component {
                 <Image
                   resizeMode="stretch"
                   style={styles.image}
-                  source={require('./img/7.jpg')}
+                  source={require('./img/7.jpg')} 
                 />
               </View>
             </Swiper>
