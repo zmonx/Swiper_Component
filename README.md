@@ -1,5 +1,6 @@
 # Swiper_Component
-# React Native Swiper Component
+React Native Swiper Component
+<hr>
 
 
 <p align="center">
@@ -18,3 +19,32 @@
   <a href="https://github.com/leecade/react-native-swiper/issues?q=is%3Aissue+is%3Aclosed"><img alt="Issue Stats" src="https://img.shields.io/issuestats/p/github/leecade/react-native-swiper.svg?style=flat-square"></a>
   <a href="https://gitter.im/leecade/react-native-swiper?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge"><img alt="Join the chat" src="https://badges.gitter.im/leecade/react-native-swiper.svg"></a>
 </p>
+
+
+### Installation
+
+> v1.5.14
+
+```bash
+$ npm i react-native-swiper --save
+```
+
+> v1.6.0-rc
+
+```
+npm i --save react-native-swiper@next
+```
+
+### Basic Usage
+
+- Install `react-native` first
+
+```bash
+$ npm i react-native-cli -g
+```
+
+- Initialization of a react-native project
+
+```bash
+$ react-native init "Project Name"
+```
