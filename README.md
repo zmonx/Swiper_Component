@@ -21,19 +21,7 @@ React Native Swiper Component
 </p>
 
 
-### Installation
 
-> v1.5.14
-
-```bash
-$ npm i react-native-swiper --save
-```
-
-> v1.6.0-rc
-
-```
-npm i --save react-native-swiper@next
-```
 
 ### Basic Usage
 
@@ -48,3 +36,72 @@ $ npm i react-native-cli -g
 ```bash
 $ react-native init "Project Name"
 ```
+
+### Installation
+
+> v1.5.14
+
+```bash
+$ npm i react-native-swiper --save
+```
+
+> v1.6.0-rc
+
+```
+npm i --save react-native-swiper@next
+```
+
+## Example Code
+
+- Then, edit `"Project Name"/App.js`, like this:
+
+```jsx
+import React, { Component } from 'react'
+import { AppRegistry, StyleSheet, Text, View } from 'react-native'
+
+import Swiper from 'react-native-swiper'
+
+const styles = StyleSheet.create({
+  wrapper: {},
+  slide1: {
+    flex: 1,
+    justifyContent: 'center',
+    alignItems: 'center',
+    backgroundColor: '#9DD6EB'
+  },
+  slide2: {
+    flex: 1,
+    justifyContent: 'center',
+    alignItems: 'center',
+    backgroundColor: '#97CAE5'
+  },
+  slide3: {
+    flex: 1,
+    justifyContent: 'center',
+    alignItems: 'center',
+    backgroundColor: '#92BBD9'
+  },
+  text: {
+    color: '#fff',
+    fontSize: 30,
+    fontWeight: 'bold'
+  }
+})
+
+export default class SwiperComponent extends Component {
+  render() {
+    return (
+      <Swiper style={styles.wrapper} showsButtons={true}>
+        <View style={styles.slide1}>
+          <Text style={styles.text}>Hello Swiper</Text>
+        </View>
+        <View style={styles.slide2}>
+          <Text style={styles.text}>Beautiful</Text>
+        </View>
+        <View style={styles.slide3}>
+          <Text style={styles.text}>And simple</Text>
+        </View>
+      </Swiper>
+    )
+  }
+}
