@@ -27,28 +27,28 @@ React Native Swiper Component
 
 - Install `react-native` first
 
-```bash
-$ npm i react-native-cli -g
+```
+> npm i react-native-cli -g
 ```
 
 - Initialization of a react-native project
 
-```bash
-$ react-native init "Project Name"
+```
+> react-native init "Project Name"
 ```
 
 ### Installation
 
 > v1.5.14
 
-```bash
-$ npm i react-native-swiper --save
+```
+> npm i react-native-swiper --save
 ```
 
 > v1.6.0-rc
 
 ```
-npm i --save react-native-swiper@next
+> npm i --save react-native-swiper@next
 ```
 
 ## Example Code >> Basic Swiper-Component
@@ -101,3 +101,9 @@ export default () => (
     </View>
   </Swiper>
 )
+```
+
+
+### Example Display >> Basic Swiper-Component
+
+![](http://i.imgur.com/zrsazAG.gif=300x)
