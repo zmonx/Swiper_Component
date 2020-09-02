@@ -1,5 +1,5 @@
 # Swiper_Component
-React Native Swiper Component
+# React Native Swiper Component
 
 
 <p align="center">
