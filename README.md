@@ -51,17 +51,17 @@ $ npm i react-native-swiper --save
 npm i --save react-native-swiper@next
 ```
 
-## Example Code
+## Example Code >> Basic Swiper-Component
 
 - Then, edit `"Project Name"/App.js`, like this:
 
 ```jsx
-import React, { Component } from 'react'
-import { AppRegistry, StyleSheet, Text, View } from 'react-native'
 
+import React from 'react'
+import { Text, View } from 'react-native'
 import Swiper from 'react-native-swiper'
 
-const styles = StyleSheet.create({
+var styles = {
   wrapper: {},
   slide1: {
     flex: 1,
@@ -86,22 +86,18 @@ const styles = StyleSheet.create({
     fontSize: 30,
     fontWeight: 'bold'
   }
-})
-
-export default class SwiperComponent extends Component {
-  render() {
-    return (
-      <Swiper style={styles.wrapper} showsButtons={true}>
-        <View style={styles.slide1}>
-          <Text style={styles.text}>Hello Swiper</Text>
-        </View>
-        <View style={styles.slide2}>
-          <Text style={styles.text}>Beautiful</Text>
-        </View>
-        <View style={styles.slide3}>
-          <Text style={styles.text}>And simple</Text>
-        </View>
-      </Swiper>
-    )
-  }
 }
+
+export default () => (
+  <Swiper style={styles.wrapper} showsButtons loop={false}>
+    <View testID="Hello" style={styles.slide1}>
+      <Text style={styles.text}>Hello Swiper</Text>
+    </View>
+    <View testID="Beautiful" style={styles.slide2}>
+      <Text style={styles.text}>Beautiful</Text>
+    </View>
+    <View testID="Simple" style={styles.slide3}>
+      <Text style={styles.text}>And simple</Text>
+    </View>
+  </Swiper>
+)
